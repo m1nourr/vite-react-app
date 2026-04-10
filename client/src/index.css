@@ -1,8 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(59, 130, 246, 0.25), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(147, 51, 234, 0.2), transparent 30%),
+    linear-gradient(135deg, #0f172a, #111827, #1e293b);
 }
 
-#root {
-  padding: 20px;
+* {
+  box-sizing: border-box;
 }
